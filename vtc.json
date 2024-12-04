@@ -1,0 +1,52 @@
+{
+  "nomCommercial": "TroVit - VTC Grenoble",
+  "phraseAccroche": "Voyagez en toute élégance avec TroVit, votre service de VTC à Grenoble",
+  "texteAppelAction": "Demander un devis",
+  "beneficesClients": [
+    "Transferts privés pour un voyage confortable et sécurisé",
+    "Chauffeurs professionnels et courtois pour un service de qualité",
+    "Flotte de véhicules modernes et bien entretenus"
+  ],
+  "realisations": [
+    {
+      "titre": "Transfert aéroport personnalisé",
+      "description": "Notre service de transfert depuis et vers l'aéroport vous assure un voyage sans stress. Nos chauffeurs vous accueilleront avec professionnalisme et veilleront à ce que vous atteigniez votre destination à temps et en toute sécurité.",
+      "image-url": "https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.gitlab.io/images/vtc/transfert-aeroport.webp"
+    },
+    {
+      "titre": "Visites touristiques privées",
+      "description": "Explorez Grenoble en toute tranquillité avec nos visites touristiques privées. Nos chauffeurs connaissent bien la région et vous conduiront vers les sites incontournables tout en vous fournissant des informations intéressantes sur la ville.",
+      "image-url": "https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.gitlab.io/images/vtc/visites-touristiques.webp"
+    },
+    {
+      "titre": "Transport pour événements spéciaux",
+      "description": "Réservez nos services de VTC pour vos événements spéciaux. Que ce soit un mariage, une soirée d'entreprise, ou un événement particulier, nous assurons un transport élégant et ponctuel pour vous et vos invités.",
+      "image-url": "https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.gitlab.io/images/vtc/transport-evenements.webp"
+    },
+    {
+      "titre": "Service de VTC pour les entreprises",
+      "description": "Optimisez les déplacements professionnels avec notre service de VTC dédié aux entreprises. Nous offrons des solutions sur mesure pour répondre aux besoins de déplacement de votre entreprise avec efficacité.",
+      "image-url": "https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.gitlab.io/images/vtc/vtc-entreprises.webp"
+    }
+  ],
+  "temoignages": [
+    {
+      "prenom": "Julie",
+      "typePrestation": "Transfert aéroport",
+      "commentaire": "TroVit a rendu mon voyage beaucoup plus agréable avec un transfert aéroport professionnel. Le chauffeur était ponctuel et le véhicule était impeccable. Je recommande vivement.",
+      "note": 5
+    },
+    {
+      "prenom": "Martin",
+      "typePrestation": "Visite touristique",
+      "commentaire": "La visite touristique privée avec TroVit était exceptionnelle. Le chauffeur était sympathique et bien informé. Une excellente façon de découvrir Grenoble.",
+      "note": 4
+    },
+    {
+      "prenom": "Sophie",
+      "typePrestation": "Service de VTC entreprise",
+      "commentaire": "TroVit a simplifié nos déplacements professionnels. Le service est fiable, les chauffeurs sont professionnels, et les véhicules sont confortables. Nous sommes très satisfaits.",
+      "note": 5
+    }
+  ]
+}
