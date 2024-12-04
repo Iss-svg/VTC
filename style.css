@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+*{
+    font-family: "inter",sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*/////////GESTION DES LARGEURS///////////*/
+.width25{
+    width: 25%;
+    
+}
+.width30{
+    width: 30%
+}
+
+.width40{
+    width: 40%;
+}
+.width45{
+    width: 45%;
+}
+
+.width50{
+    width: 50%;
+}
+.width60{
+    width: 60%;
+}
+.width65{
+    width: 65%;
+}
+.width70{
+    width: 70%;
+}
+/*///////////////FIN/////////////////*/
+.bold{
+    font-weight: 900;
+}
+
+.spaceBetween{
+    justify-content: space-between;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    padding: 12px;
+}
+
+.paddSection{
+    padding: 30px;
+}
+/*NAV*/
+
+nav img{
+    width: 10%;
+    height: 70px;
+}
+
+nav li{
+    list-style: none;
+    padding: 16px;   
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.navBtn{
+    background-color: black;
+    color: white;
+    padding: 12px;
+    margin-left: 25px;
+    border-radius: 25px;
+}
+
+.nvDv{
+    padding: 20px;
+}
+
+/*SECTION HERO*/
+
+
+.hero { 
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.hero img{ 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.hebT{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 12px;
+    border-radius: 15px;
+    font-weight: 800;
+    
+
+}
+
+h1{
+    margin-top: 12px;
+    margin-bottom: 15px;
+    
+}
+
+.hero div { 
+    background-color: #aa9f9f28;/*penser a abaisser la second barre*/
+     width: 50%;
+     position: absolute; /*permet de modifier la position*/
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);/*permet de déplasser la div*/
+     text-align: center;
+     padding: 64px;
+     border-radius: 23px;
+     color: white;
+     backdrop-filter: blur(10px);/*permet de flouter*/
+ }
+
+
+
+
+
+/*SECTION SERVICE*/
+
+.carte{
+    width: 280px;
+    height: 570px;
+    background-color: blue;
+    box-shadow: 2px 2px 2px 2px grey;
+    border-radius: 12px;
+}
+
+.carte img{
+    width: 100%;
+    object-fit: fill;
+    border-radius: 12px;
+}
+
+.divSpad{
+    padding: 13px;
+    
+}
+
+.divSpad p{
+    margin-top: 23px;
+    margin-bottom: 20px;
+}
+
+.loser{
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    margin-bottom: 12px;
+    border-radius: 15px;
+    font-weight: 700;
+}
+
+
+/*SECTION AVANTAGE*/
+
+.avantage{
+    background-color: aqua;
+}
+
+
+/*SECTION TEMOIGNAGE*/
+
+
+
+
+
+/*SECTION CONTACT*/
+
+
+
+
+/*SECTION FOOTER*/
