@@ -67,13 +67,14 @@ html{
 /*NAV*/
 
 nav img{
-    width: 10%;
-    height: 70px;
+    width: 6%;
+    height: 40px;
+    padding: 5px;
 }
 
 nav li{
     list-style: none;
-    padding: 16px;   
+     padding: 17px;
     
 }
 
@@ -83,7 +84,7 @@ nav a{
 }
 
 .navBtn{
-    background-color: black;
+    background-color: rgba(5, 135, 242, 0.797);
     color: white;
     padding: 12px;
     margin-left: 25px;
@@ -112,7 +113,7 @@ nav a{
 
 .hebT{
     text-decoration: none;
-    background-color: black;
+    background-color: rgba(0, 153, 255, 0.628);
     color: white;
     padding: 12px;
     border-radius: 15px;
@@ -150,7 +151,7 @@ h1{
 .carte{
     width: 280px;
     height: 570px;
-    background-color: blue;
+    background-color: rgba(0, 145, 255, 0.555);
     box-shadow: 2px 2px 2px 2px grey;
     border-radius: 12px;
 }
@@ -186,18 +187,50 @@ h1{
 
 .avantage{
     background-color: aqua;
+    padding: 15px;
 }
 
 
 /*SECTION TEMOIGNAGE*/
 
+.contain{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    padding: 12px;
 
+}
+
+.cont{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    padding: 12px;
+}
+
+.carteTemoignage{
+    width: 259px;
+    height: 168px;
+    background-color: rgb(7, 192, 192);
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.divtem{
+    padding: 4px;
+}
 
 
 
 /*SECTION CONTACT*/
 
+.contact{
 
+}
 
 
 /*SECTION FOOTER*/
+
+.bgcolor{
+    background-color: green;
+}

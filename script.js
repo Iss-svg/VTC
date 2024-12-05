@@ -40,7 +40,30 @@ console.log(benef)
     let avantage=document.querySelector(`.avantage`)
     avantage.innerHTML += `${beneflist}`
 
-    console.log(boite.realisations)
+   
+
+    //je veux dans un premier tempt lire le tableaux temoignage est ensuite recuperer l'Objet, les stockers dans des variables puit indiquer dans quel div les informations doivent etre appliquer.
+    boite.temoignages.forEach(boittem => {
+        let pren=boittem.prenom
+        let type=boittem.typePrestation
+        let comment=boittem.commentaire
+        let note=boittem.note
+
+        let contain=document.querySelector(`.contain`)
+        contain.innerHTML += ` <div class="carteTemoignage">
+                <div> 
+                <p>${pren}</p> 
+                <p>note : ${note}/5</p>
+                </div>
+                 <h4>${type}</h4>
+                <p>${comment}</p>
+                
+            </div>
+`
+        
+    });
+
+     console.log(boite.realisations)
     //je veux gerer les realisations qui son dans une boite 
     boite.realisations.forEach(botreal => {
         let titr=botreal.titre
