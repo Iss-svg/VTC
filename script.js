@@ -33,7 +33,7 @@ console.log(benef)
     // Je veux gerer les avantages: boite.beneficesClients qui est un tableau 
     let beneflist=""
     benef.forEach(list => {
-        beneflist += `<li>${list}</li>`
+        beneflist += `<div class="boite"><img src="${list.img}" alt=""><li>${list.texte}</li></div>`
     });
     console.log(beneflist)
     //je veux afficher en html dans ma classe avantage le tableau avec la liste des avantages qui est renger dans une variable
@@ -51,7 +51,7 @@ console.log(benef)
 
         let contain=document.querySelector(`.contain`)
         contain.innerHTML += ` <div class="carteTemoignage">
-                <div> 
+                <div class="alit"> 
                 <p>${pren}</p> 
                 <p>note : ${note}/5</p>
                 </div>

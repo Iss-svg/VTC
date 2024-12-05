@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
 
 *{
@@ -17,8 +17,28 @@ html{
     width: 25%;
     
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
 .width30{
     width: 30%
+}
+
+h3 {
+    margin-bottom: 2px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 40px;
+}
+
+h4 {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
 }
 
 .width40{
@@ -62,7 +82,8 @@ html{
 }
 
 .paddSection{
-    padding: 30px;
+    padding: 40px;
+    
 }
 /*NAV*/
 
@@ -81,6 +102,8 @@ nav li{
 nav a{
     text-decoration: none;
     color: black;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
 }
 
 .navBtn{
@@ -125,6 +148,8 @@ nav a{
 h1{
     margin-top: 12px;
     margin-bottom: 15px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
     
 }
 
@@ -148,10 +173,15 @@ h1{
 
 /*SECTION SERVICE*/
 
+.bgserv{
+    background-color: #32b7ff;
+    align-items: center;
+}
+
 .carte{
     width: 280px;
-    height: 570px;
-    background-color: rgba(0, 145, 255, 0.555);
+    height: 578px;
+    background-color: rgba(255, 255, 255, 0.89);
     box-shadow: 2px 2px 2px 2px grey;
     border-radius: 12px;
 }
@@ -163,7 +193,7 @@ h1{
 }
 
 .divSpad{
-    padding: 13px;
+    padding: 12px;
     
 }
 
@@ -174,7 +204,7 @@ h1{
 
 .loser{
     text-decoration: none;
-    background-color: green;
+    background-color: rgb(0, 75, 128);
     color: white;
     padding: 10px;
     margin-bottom: 12px;
@@ -186,8 +216,28 @@ h1{
 /*SECTION AVANTAGE*/
 
 .avantage{
-    background-color: aqua;
+    
     padding: 15px;
+    list-style: none;
+}
+
+.alit{
+    text-align: center;
+}
+.bls{
+    background-color: #1f9cd7 ;
+}
+
+.boite{
+    width: 300px;
+    height: 100px;
+    padding: 12px;
+    text-align: center;
+}
+
+.boite img {
+    width: 80px;
+    height: 65px;
 }
 
 
@@ -208,12 +258,16 @@ h1{
     padding: 12px;
 }
 
+.bgCol{
+   background-color: #32b7ff81 ; 
+}
 .carteTemoignage{
-    width: 259px;
+    width: 300px;
     height: 168px;
-    background-color: rgb(7, 192, 192);
+    background-color: whitesmoke;
     padding: 15px;
     border-radius: 15px;
+    box-shadow: 1px 1px 1px 1px;
 }
 
 .divtem{
@@ -223,14 +277,23 @@ h1{
 
 
 /*SECTION CONTACT*/
-
-.contact{
-
+.blk{
+    display: block;
 }
+.contact{
+    align-items: baseline;
+}
+
+
 
 
 /*SECTION FOOTER*/
 
+.ftl{
+    font-size:25px;
+}
 .bgcolor{
-    background-color: green;
+    background-color: rgb(0, 15, 0);
+    color: white;
+    height: 400px;
 }

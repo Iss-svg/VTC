@@ -3,9 +3,19 @@
   "phraseAccroche": "Voyagez en toute élégance avec TroVit, votre service de VTC à Grenoble",
   "texteAppelAction": "Demander un devis",
   "beneficesClients": [
-    "Transferts privés pour un voyage confortable et sécurisé",
-    "Chauffeurs professionnels et courtois pour un service de qualité",
-    "Flotte de véhicules modernes et bien entretenus"
+    {
+      "img":"https://cdn.pixabay.com/photo/2015/12/08/19/08/castle-1083570_1280.png",
+      "texte":"Transferts privés pour un voyage confortable et sécurisé"
+    },
+    {
+      "img":"https://cdn.pixabay.com/photo/2022/01/07/20/40/business-deal-6922628_1280.png",
+      "texte":"Chauffeurs professionnels et courtois pour un service de qualité"
+    },
+    {
+      "img":"https://cdn.pixabay.com/photo/2017/01/13/01/22/ok-1976099_1280.png",
+      "texte":"Flotte de véhicules modernes et bien entretenus"
+    }
+    
   ],
   "realisations": [
     {
