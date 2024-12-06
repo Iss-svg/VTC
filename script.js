@@ -1,4 +1,4 @@
-// Effectue une requête HTTP GET vers l'API Fake Store pour récupérer une liste de produits
+// Effectue une requête GET vers data.jason pour récupérer une boite
 fetch("data.json")
     .then((rep) => {
         // Lorsque la réponse est reçue, elle est convertie en JSON pour pouvoir être manipulée en tant qu'objet JavaScript
@@ -19,7 +19,7 @@ fetch("data.json")
 
 //**FONCTION AFFICHER 
 //Role : Afficher les services en carte et les temoignages en carte rectengulaire
-//Paramétre : la "boite" represente l'objet les informations sur les services et les temoignages
+//Paramétre : la "boite" represente l'objet, les informations sur les services et les temoignages
 //Retour : AUCUN
 
 function affiche(boite){
@@ -31,9 +31,10 @@ console.log(benef)
 
 
     // Je veux gerer les avantages: boite.beneficesClients qui est un tableau 
+   
     let beneflist=""
     benef.forEach(list => {
-        beneflist += `<div class="boite"><img src="${list.img}" alt=""><li>${list.texte}</li></div>`
+        beneflist += `<div class="boite"><img src="${list.img}" alt=""><li>${list.texte}</li></div>` //j'ai due rajouter des objets a l'interieur du tablaeu beneficesClients "list" dans le JSON
     });
     console.log(beneflist)
     //je veux afficher en html dans ma classe avantage le tableau avec la liste des avantages qui est renger dans une variable
